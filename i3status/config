@@ -1,0 +1,81 @@
+# i3status configuration file.
+# see "man i3status" for documentation.
+
+# It is important that this file is edited as UTF-8.
+# The following line should contain a sharp s:
+# ß
+# If the above line is not correctly displayed, fix your editor first!
+
+general {
+        output_format = "i3bar"
+        colors = false #true
+        interval = 5
+}
+
+order += "ipv6"
+order += "ethernet _first_"
+order += "wireless _first_"
+order += "disk /"
+order += "disk /home"
+order += "disk /tmp"
+order += "disk /var"
+order += "memory"
+order += "load"
+order += "battery all"
+
+ipv6 {
+#	color_good = "#93A1A1"
+	format_up = "%ip"
+	format_down = "no 6"
+}
+wireless _first_ {
+#	color_good = "#93A1A1"
+        format_up = "%ip_%essid_[ %bitrate :%quality ]"
+        format_down = "W"
+}
+
+ethernet _first_ {
+#	color_bad = "#93A1A1"
+        format_up = "E:%ip [ %speed ]"
+        format_down = "E"
+}
+
+battery all {
+        format = "%remaining"
+	low_threshold = 10
+	threshold_type = "time"
+}
+
+disk "/" {
+	color_good = "#93A1A1"
+        format = "R:%avail"
+}
+
+disk "/home" {
+	color_good = "#93A1A1"
+        format = "H:%avail"
+}
+disk "/tmp" {
+	color_good = "#93A1A1"
+        format = "T:%avail"
+}
+disk "/var" {
+	color_good = "#93A1A1"
+        format = "V:%avail"
+}
+load {
+	color_good = "#93A1A1"
+        format = "%1min"
+}
+
+memory {
+	color_good = "#93A1A1"
+        format = "M:%used"
+        threshold_degraded = "1G"
+        format_degraded = "MEMORY < %available"
+}
+
+tztime local {
+	timezone = "Europe/Samara"
+	format = "[%m-%d][%H:%M:%S]"
+}

@@ -1,0 +1,28 @@
+### Variables
+# Mod1 for Alt
+set $mod Mod1
+# Mod2 for Num_Lock 
+set $num Mod2
+# Mod3 for fn+win key
+set $rwin Mod3
+# Mod4 for Logo key
+set $win Mod4
+# Home row direction keys, like vim
+set $left h
+set $down j
+set $up k
+set $right l
+# Your preferred terminal emulator
+set $term alacritty
+# Your preferred application launcher
+# Note: pass the final command to swaymsg so that the resulting window can be opened
+# on the original workspace that the command was run on.
+set $menu dmenu_path | dmenu | xargs swaymsg exec --
+# mouse+$mod make window floating
+floating_modifier $mod normal
+
+## Everything in dropin mod
+include $HOME/.config/sway/config.d/*.conf
+
+## System configs for everything that were missed 
+include /etc/sway/config.d/*

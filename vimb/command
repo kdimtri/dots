@@ -1,0 +1,123 @@
+open !
+open g
+set download-path
+set download-path=~/Downloads
+bma
+open https://fanglingsu.github.io/vimb/howto.html
+bma
+bma
+open g
+open https://wiki.archlinux.org/title/Tor
+open github.com
+open github.com
+open g
+open github.com
+open github.com
+open g
+open g
+open g
+open g
+open https://github.com/davecheney/httpstat
+open g
+bma
+open https://dev.to/abh1navv/how-i-created-my-jsonresume-10j6
+open g
+open g
+bma
+bma
+open g
+save arch.rss
+bma
+bma
+open https://archlinux.org
+open g
+open aws.com
+open g
+open https://github.com/kdimtri
+bma
+open http://localhost:8200
+open https://github.com/search?q=resume+cv+go
+open g
+open g
+open g
+open  https://github.com/nvm-sh/nvm/archive
+open g
+bma
+open g
+open g
+open g
+open g
+open https://wiki.archlinux.org/title/Sway
+open g
+open https://wiki.archlinux.org/title/Sway
+open https://wiki.archlinux.org/title/I3
+open g
+open https://wiki.archlinux.org/title/Systemd-nspawn#machinectl
+bma
+open g
+open https://wiki.archlinux.org/title/Getty
+open https://wiki.archlinux.org/title/Getty
+open g
+open https://github.com/davatorium/rofi/blob/next/doc/rofi-script.5.markdown
+open https://wiki.archlinux.org/title/Sway
+open g
+open g
+bma
+open g
+open g
+open http://localhost:8200/
+open http://localhost:8200/
+open http://localhost:8200/
+open http://localhost:8200/
+open http://localhost:8200/
+open http://localhost:8200/
+open http://localhost:8200/
+open g
+open g
+open g
+open g
+open https://github.com/search?q=&type=Repositories
+open g
+open https://kino.pub/device
+open g
+open g
+open https://gitconnected.com/r3code
+open g
+open https://github.com/search?q=go+mage&ref=simplesearch
+open https://www.w3schools.com/sql/sql_intro.asp
+bma
+open g
+open g
+open g
+open g
+open g
+open g
+open g
+open g
+open g
+open g
+open f
+open amend
+open neovim json linter
+open install google chrome
+open archlinux install google chrome
+open localhost:9100
+open localhost:9100
+open localhost:9091
+open localhost:9091
+e! simplyread();
+open gmt-3
+open dataart
+open dataart вакансии
+open root android bq
+open tck/tl scripting
+open arch zoom 
+open ГОСТ криптография
+open teleport
+open monitorin remote servers
+open if has ('nvim') deopley
+open http vs http2 server
+e! simplyread();
+e! simplyread();
+open g
+open lsb-base
